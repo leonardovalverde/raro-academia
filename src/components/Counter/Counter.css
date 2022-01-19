@@ -1,0 +1,40 @@
+.counterContainer {
+  display: flex;
+  align-items: center;
+}
+
+.btnAdd,
+.btnSub {
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border: 2px solid #282828;
+  border-radius: 10px;
+  margin-right: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.btnAdd {
+  background: #4cbb17;
+  color: #fff;
+  transition: background 0.3s ease;
+}
+
+.btnAdd:hover {
+  background: #3f9615;
+}
+
+.btnSub {
+  background: #ff5733;
+  transition: background 0.3s ease;
+}
+
+.btnSub:hover {
+  background: #a3321a;
+}
+
+.counterContainer span {
+  font-size: 1.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}

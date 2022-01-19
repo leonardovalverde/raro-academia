@@ -1,0 +1,46 @@
+.containerSearch {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 3rem;
+}
+
+.imgContainer {
+  margin-right: 3rem;
+}
+
+.containerSearch p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerSearch img {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+.containerSearch input {
+  border-radius: 20px;
+  padding: 0.25rem 1rem;
+  width: 200px;
+  margin-right: 2rem;
+  border: 1px solid #282828;
+}
+
+.containerSearch button {
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid #282828;
+  color: #282828;
+  background-color: white;
+  padding: 0.25rem 1rem;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.containerSearch button:hover {
+  color: #fff;
+  background-color: #282828;
+}
+
+.error {
+  font-weight: 700;
+  color: #cc0000;
+}
